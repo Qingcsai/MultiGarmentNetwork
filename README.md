@@ -3,6 +3,8 @@ Repo for **"Multi-Garment Net: Learning to Dress 3D People from Images, ICCV'19"
 
 Link to paper: https://arxiv.org/abs/1908.06903
 
+Add some steps for data preprocess.
+
 ## Step
 ### 1_Generate segmentations
 * Save 8 snapshots of smpl_registered.obj from meshlab.
