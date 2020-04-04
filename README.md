@@ -6,12 +6,12 @@ Link to paper: https://arxiv.org/abs/1908.06903
 Add some steps for data preprocess.
 
 ## Step
-### 1_Generate segmentations
+### 1 Generate segmentations
 * Save 8 snapshots of smpl_registered.obj from meshlab.
   * Black background
 * Run ```create_segment()``` in ```temp.py``` to generate segmentations
 
-### 2_Generate J_2D
+### 2 Generate J_2D
 ```
 cd PATH_TO_OPENPOSE
 .\bin\01_body_from_image_default.exe --image_path .\examples\media\snapshot00.png
@@ -24,7 +24,7 @@ cd PATH_TO_OPENPOSE
 * Run ```create_J_2d()``` in ```temp.py``` 
 
 
-# TODO
+### TODO
 * Save segmentations to pkl before nomalize it.
 
 ## Dress SMPL body model with our Digital Wardrobe
