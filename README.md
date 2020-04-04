@@ -9,7 +9,7 @@ Add some steps for data preprocess.
 ### 1 Generate segmentation ```images```
 * Save 8 snapshots of smpl_registered.obj from meshlab.
   * Black background
-* Run ```create_segment()``` in ```temp.py``` to generate segmentations
+* Run ```create_segment()``` in ```create_pkl.py``` to generate segmentations
 
 ### 2 Generate ```J_2d```
 ```
@@ -21,7 +21,7 @@ cd PATH_TO_OPENPOSE
 .\bin\01_body_from_image_default.exe --image_path .\examples\media\snapshot07.png
 ```
 * Create ```snapshot00.txt```, then copy the J_2D to it.  
-* Run ```create_J_2d()``` in ```temp.py``` 
+* Run ```create_J_2d()``` in ```create_pkl.py``` 
 
 ### 3 Generate ```vertexlabel```
 ### TODO
