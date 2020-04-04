@@ -3,6 +3,28 @@ Repo for **"Multi-Garment Net: Learning to Dress 3D People from Images, ICCV'19"
 
 Link to paper: https://arxiv.org/abs/1908.06903
 
+## Step
+### 1_Generate segmentations
+* Save 8 snapshots of smpl_registered.obj from meshlab.
+  * Black background
+* Run ```create_segment()``` in ```temp.py``` to generate segmentations
+
+### 2_Generate J_2D
+```
+cd PATH_TO_OPENPOSE
+.\bin\01_body_from_image_default.exe --image_path .\examples\media\snapshot00.png
+...
+...
+...
+.\bin\01_body_from_image_default.exe --image_path .\examples\media\snapshot07.png
+```
+* Create ```snapshot00.txt```, then copy the J_2D to it.  
+* Run ```create_J_2d()``` in ```temp.py``` 
+
+
+# TODO
+* Save segmentations to pkl before nomalize it.
+
 ## Dress SMPL body model with our Digital Wardrobe
 
 1. Download digital wardrobe: https://datasets.d2.mpi-inf.mpg.de/MultiGarmentNetwork/Multi-Garmentdataset.zip
