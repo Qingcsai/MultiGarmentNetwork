@@ -26,7 +26,7 @@ cd PATH_TO_OPENPOSE
 ### 3 Generate ```vertexlabel```
 ### TODO
 * Save segmentations to pkl before nomalize it.
-* 
+* ...
 
 ## Dress SMPL body model with our Digital Wardrobe
 
