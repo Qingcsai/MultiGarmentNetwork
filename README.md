@@ -6,12 +6,12 @@ Link to paper: https://arxiv.org/abs/1908.06903
 Add some steps for data preprocess.
 
 ## Step
-### 1 Generate segmentation ```images```
+### 1 Generate segmentation ```image_x```
 * Save 8 snapshots of smpl_registered.obj from meshlab.
   * Black background
 * Run ```create_segment()``` in ```create_pkl.py``` to generate segmentations
 
-### 2 Generate ```J_2d```
+### 2 Generate ```J_2d_x```
 ```
 cd PATH_TO_OPENPOSE
 .\bin\01_body_from_image_default.exe --image_path .\examples\media\snapshot00.png
@@ -24,9 +24,13 @@ cd PATH_TO_OPENPOSE
 * Run ```create_J_2d()``` in ```create_pkl.py``` 
 
 ### 3 Generate ```vertexlabel```
+
+See here for getting ```vertexlabel```:  
+<https://github.com/bharat-b7/MultiGarmentNetwork/issues/16#issuecomment-608986126>
+
+
 ### TODO
-* Save segmentations to pkl before nomalize it.
-* ...
+* change ```NUM``` to see what happens.
 
 ## Dress SMPL body model with our Digital Wardrobe
 
