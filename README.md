@@ -6,12 +6,12 @@ Link to paper: https://arxiv.org/abs/1908.06903
 Add some steps for data preprocess.
 
 ## Step
-### 1 Generate segmentation ```image_x```
+### 1 Create segmentation ```image_x```
 * Save 8 snapshots of smpl_registered.obj from meshlab.
   * Black background
 * Run ```create_segment()``` in ```create_pkl.py``` to generate segmentations
 
-### 2 Generate ```J_2d_x```
+### 2 Create ```J_2d_x```
 ```
 cd PATH_TO_OPENPOSE
 .\bin\01_body_from_image_default.exe --image_path .\examples\media\snapshot00.png
@@ -23,11 +23,14 @@ cd PATH_TO_OPENPOSE
 * Create ```snapshot00.txt```, then copy the J_2D to it.  
 * Run ```create_J_2d()``` in ```create_pkl.py``` 
 
-### 3 Generate ```vertexlabel```
-
+### 3 Create ```vertexlabel```
 See here for getting ```vertexlabel```:  
 <https://github.com/bharat-b7/MultiGarmentNetwork/issues/16#issuecomment-608986126>
 
+### 4 Create ```remdered```
+```
+step_5_create_rendered_as_pkl()
+```
 
 ### TODO
 * change ```NUM``` to see what happens.
