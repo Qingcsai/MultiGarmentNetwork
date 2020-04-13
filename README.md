@@ -14,11 +14,11 @@ Add some steps for data preprocess.
 ### 2 Create ```J_2d_x```
 ```
 cd PATH_TO_OPENPOSE
-.\bin\01_body_from_image_default.exe --image_path .\examples\media\snapshot00.png
+.\bin\01_body_from_image_default.exe --image_path E:\Workspace\MultiGarmentNetwork\cq_create_pkl\data_4\snapshot_crop\snapshot00.png
 ...
 ...
 ...
-.\bin\01_body_from_image_default.exe --image_path .\examples\media\snapshot07.png
+.\bin\01_body_from_image_default.exe --image_path E:\Workspace\MultiGarmentNetwork\cq_create_pkl\data_4\snapshot_crop\snapshot07.png
 ```
 * Create ```snapshot00.txt```, then copy the J_2D to it.  
 * Run ```create_J_2d()``` in ```create_pkl.py``` 
