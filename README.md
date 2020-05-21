@@ -6,7 +6,7 @@ Link to paper: https://arxiv.org/abs/1908.06903
 Add some steps for data preprocess.
 
 ## Step
-### 1 Create segmentation ```image_x``` and ```redered```
+### 1 Create segmentation ```image_x``` and ```rendered```
 
 * Save 8 snapshots of smpl_registered.obj from meshlab.
   * Black background
