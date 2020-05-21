@@ -12,7 +12,7 @@ Add some steps for data preprocess.
   * Black background
 * Run 
 ```
-cq_create_pkl/cqcreate_pkl.py step1to2
+./cq_create_pkl/create_pkl.py step1to2
 ``` 
 
 ### 2 Create ```J_2d_x```
@@ -27,7 +27,7 @@ cd PATH_TO_OPENPOSE
 * Create ```snapshot00.txt```, then copy the J_2D to it.  
 * Run 
 ```
-cq_create_pkl/cqcreate_pkl.py step3to5
+./cq_create_pkl/create_pkl.py step3to5
 ```
 
 ### 3 Create ```vertexlabel```
