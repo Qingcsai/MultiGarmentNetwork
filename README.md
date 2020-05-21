@@ -35,10 +35,6 @@ See here for getting ```vertexlabel```:
 <https://github.com/bharat-b7/MultiGarmentNetwork/issues/16#issuecomment-608986126>
 
 
-
-### TODO
-* change ```NUM``` to see what happens.
-
 ## Dress SMPL body model with our Digital Wardrobe
 
 1. Download digital wardrobe: https://datasets.d2.mpi-inf.mpg.de/MultiGarmentNetwork/Multi-Garmentdataset.zip
