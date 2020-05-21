@@ -5,7 +5,7 @@ Link to paper: https://arxiv.org/abs/1908.06903
 
 Add some steps for data preprocess.
 
-## Step
+## Data Preproccess Step
 ### 1 Create segmentation ```image_x``` and ```rendered```
 
 * Save 8 snapshots of smpl_registered.obj from meshlab.
@@ -34,11 +34,13 @@ cq_create_pkl/cqcreate_pkl.py step3to5
 See here for getting ```vertexlabel```:  
 <https://github.com/bharat-b7/MultiGarmentNetwork/issues/16#issuecomment-608986126>
 
+## Note
+* The texture maps for MGN dataset were obtained using a 3D scanner. See [here](https://github.com/bharat-b7/MultiGarmentNetwork/issues/34#issuecomment-630246631)
 
 ## Dress SMPL body model with our Digital Wardrobe
 
-1. Download digital wardrobe: https://datasets.d2.mpi-inf.mpg.de/MultiGarmentNetwork/Multi-Garmentdataset.zip
-This dataset contains scans, SMPL registration, texture_maps, segmentation_maps and multi-mesh registered garments.
+1. Download digital wardrobe: [Part-1](https://datasets.d2.mpi-inf.mpg.de/MultiGarmentNetwork/Multi-Garmentdataset.zip) and [Part-2](https://datasets.d2.mpi-inf.mpg.de/MultiGarmentNetwork/Multi-Garmentdataset_02.zip). This dataset contains scans, SMPL registration, texture_maps, segmentation_maps and multi-mesh registered garments. In fact, we do not have permission to release the textures for part-2 of the dataset. Moreover, MGN does not require textures for training. See [here](https://github.com/bharat-b7/MultiGarmentNetwork/issues/34#issuecomment-630245928)
+
 2. visualize_scan.py: Load scan and visualize texture and segmentation
 3. visualize_garments.py: Visualize random garment and coresponding SMPL model
 4. dress_SMPL.py: Load random garment and dress desired SMPL body with it
