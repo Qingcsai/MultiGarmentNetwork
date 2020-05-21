@@ -35,11 +35,11 @@ See here for getting ```vertexlabel```:
 <https://github.com/bharat-b7/MultiGarmentNetwork/issues/16#issuecomment-608986126>
 
 ## Note
-* The texture maps for MGN dataset were obtained using a 3D scanner. See [here](https://github.com/bharat-b7/MultiGarmentNetwork/issues/34#issuecomment-630246631)
+* The texture maps for MGN dataset were obtained using a 3D scanner. See [here](https://github.com/bharat-b7/MultiGarmentNetwork/issues/34#issuecomment-630246631).
 
 ## Dress SMPL body model with our Digital Wardrobe
 
-1. Download digital wardrobe: [Part-1](https://datasets.d2.mpi-inf.mpg.de/MultiGarmentNetwork/Multi-Garmentdataset.zip) and [Part-2](https://datasets.d2.mpi-inf.mpg.de/MultiGarmentNetwork/Multi-Garmentdataset_02.zip). This dataset contains scans, SMPL registration, texture_maps, segmentation_maps and multi-mesh registered garments. In fact, we do not have permission to release the textures for part-2 of the dataset. Moreover, MGN does not require textures for training. See [here](https://github.com/bharat-b7/MultiGarmentNetwork/issues/34#issuecomment-630245928)
+1. Download digital wardrobe: [Part-1](https://datasets.d2.mpi-inf.mpg.de/MultiGarmentNetwork/Multi-Garmentdataset.zip) and [Part-2](https://datasets.d2.mpi-inf.mpg.de/MultiGarmentNetwork/Multi-Garmentdataset_02.zip). This dataset contains scans, SMPL registration, texture_maps, segmentation_maps and multi-mesh registered garments. In fact, we do not have permission to release the textures for part-2 of the dataset. Moreover, MGN does not require textures for training. See [here](https://github.com/bharat-b7/MultiGarmentNetwork/issues/34#issuecomment-630245928).
 
 2. visualize_scan.py: Load scan and visualize texture and segmentation
 3. visualize_garments.py: Visualize random garment and coresponding SMPL model
